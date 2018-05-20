@@ -5,11 +5,22 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\img_logo</sprite>
+    <sprite>sprites\img_buttontest1</sprite>
+    <sprite>sprites\img_buttontest2</sprite>
+    <sprite>sprites\img_buttontest3</sprite>
+    <sprite>sprites\img_maximise</sprite>
+    <sprite>sprites\img_minimise</sprite>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\obj_logo</object>
+    <object>objects\obj_buttontest</object>
+  </objects>
   <rooms name="rooms">
-    <room>rooms\room0</room>
+    <room>rooms\lvl_menu</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
