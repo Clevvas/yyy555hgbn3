@@ -7,17 +7,27 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\img_logo</sprite>
-    <sprite>sprites\img_buttontest1</sprite>
-    <sprite>sprites\img_buttontest2</sprite>
-    <sprite>sprites\img_buttontest3</sprite>
+    <sprite>sprites\img_play1</sprite>
+    <sprite>sprites\img_play2</sprite>
+    <sprite>sprites\img_play3</sprite>
     <sprite>sprites\img_maximise</sprite>
     <sprite>sprites\img_minimise</sprite>
+    <sprite>sprites\img_continue1</sprite>
+    <sprite>sprites\img_continue2</sprite>
+    <sprite>sprites\img_continue3</sprite>
+    <sprite>sprites\img_Quit1</sprite>
+    <sprite>sprites\img_Quit2</sprite>
+    <sprite>sprites\img_Quit3</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bg_menu</background>
+  </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_logo</object>
-    <object>objects\obj_buttontest</object>
+    <object>objects\obj_NewGame</object>
+    <object>objects\obj_continue</object>
+    <object>objects\obj_quit</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\lvl_menu</room>
