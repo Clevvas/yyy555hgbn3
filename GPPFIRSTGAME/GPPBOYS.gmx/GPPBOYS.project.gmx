@@ -25,13 +25,13 @@
     <background>background\background1</background>
   </backgrounds>
   <paths name="paths"/>
-  <scripts name="scripts"/>
   <objects name="objects">
     <object>objects\obj_logo</object>
     <object>objects\obj_NewGame</object>
     <object>objects\obj_continue</object>
     <object>objects\obj_quit</object>
-    <object>objects\object4</object>
+    <object>objects\obj_mainlad</object>
+    <object>objects\settings</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\lvl_mainmenu</room>
