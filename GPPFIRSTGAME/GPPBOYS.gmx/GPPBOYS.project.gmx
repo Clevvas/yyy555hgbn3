@@ -18,19 +18,24 @@
     <sprite>sprites\img_Quit1</sprite>
     <sprite>sprites\img_Quit2</sprite>
     <sprite>sprites\img_Quit3</sprite>
+    <sprite>sprites\sprite12</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_menu</background>
+    <background>background\background1</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts"/>
   <objects name="objects">
     <object>objects\obj_logo</object>
     <object>objects\obj_NewGame</object>
     <object>objects\obj_continue</object>
     <object>objects\obj_quit</object>
+    <object>objects\object4</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\lvl_menu</room>
+    <room>rooms\lvl_mainmenu</room>
+    <room>rooms\testlevel</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
